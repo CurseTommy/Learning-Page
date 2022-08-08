@@ -25,6 +25,37 @@ header {
     text-align: center;
 }
 
+footer {
+    height: 4vh;
+    line-height: 4vh;
+    font-size: 16px;
+    width: 100%;
+    background-color: #444;
+    text-align: left;
+}
+
+a {
+    padding: 10px 20px;
+    text-decoration: none;
+    color: white;
+    position: relative;
+}
+
+a::before {
+    content: ".";
+    width: 100%;
+    height: 100%;
+    left: 1%;
+    line-height: 1.5vh;
+    position: absolute;
+    padding: 0px 5px;
+    font-size: 42px;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
 main {
     display: flex;
     flex-direction: row;
@@ -47,7 +78,7 @@ div>p {
 }
 
 .violet {
-    color: rgb(172, 30, 172);
+    color: rgb(143, 0, 255);
 }
 
 .orange {
