@@ -25,6 +25,11 @@ header {
     text-align: center;
 }
 
+h1 {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
 footer {
     height: 4vh;
     line-height: 4vh;
@@ -35,7 +40,7 @@ footer {
 }
 
 a {
-    padding: 10px 20px;
+    padding: 0px 20px;
     text-decoration: none;
     color: white;
     position: relative;
@@ -87,4 +92,26 @@ div>p {
 
 .green {
     color: rgb(2, 190, 2);
+}
+
+@media (max-width: 1500px) {
+    main {
+        flex-wrap: wrap;
+        width: 90%;
+    }
+
+    div {
+        flex-basis: 35%;
+    }
+}
+
+@media (max-width: 627px) {
+    main {
+        width: 100%;
+
+    }
+
+    div {
+        flex-basis: 70%;
+    }
 }
