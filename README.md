@@ -1,2 +1,2 @@
-# Learning-Page | Strona do nauki
+# Learning Page | Strona do nauki
  
